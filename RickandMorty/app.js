@@ -8,7 +8,7 @@ const modalBody = document.querySelector('.modal-body');
 
 const fetchApi = (url) => fetch(url).then(response => response.json());
 
-pagination.innerHTML = createPag();
+pagination.innerHTML = createPag();c
 
 function getCharacters(page=1){
     fetchApi(`${ URL }/character/?page=${ page }`)
