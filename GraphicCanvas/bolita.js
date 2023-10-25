@@ -31,13 +31,12 @@ function bolita(x, y){
 }
 
 setInterval(() => {
-    ctx.fillStyle = hslColor(ini);
-    //ctx.clearRect(0, 0, 600, 400);
+    //ctx.fillStyle = hslColor(ini);
     bolita(idx, idy);
-    if(dirX === 1 && dirY === 1){
+if(dirX === 1 && dirY === 1){
     idx += 1;
     idy += 1;
-    } else if (dirX === 1 && dirY === 2){
+} else if (dirX === 1 && dirY === 2){
     idx += 1;
     idy -= 1;
     } else if (dirX === 2 && dirY === 1){
