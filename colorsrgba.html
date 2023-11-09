@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores RGBA</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            width: 400px;
+            padding: 20px;
+        }
+        .container * {
+            width: 100%;
+            margin-top: 15px;
+        }
+        #btnColor {
+            width: 400px;
+            height: 20px;
+            text-align: center;
+            border-radius: 20px;
+            display: grid;
+            background-color: darkgray;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Set Colors</h1>
+        <input type="range" name="" id="red" min="0" max="255">
+        <br>
+        <input type="range" name="" id="green" min="0" max="255">
+        <br>
+        <input type="range" name="" id="blue" min="0" max="255">
+        <br>
+        <input type="range" name="" id="trans">
+        <br>
+        <!--<button id="btnColor">Set Colors</button>-->
+    </div>
+    <script src="./colorsrgba.js"></script>
+</body>
+</html>
